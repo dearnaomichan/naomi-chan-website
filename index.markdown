@@ -6,12 +6,12 @@ layout: home
 ---
 
 <!-- Background Container with dark theme -->
-<div class="has-background-black has-text-white is-flex is-flex-direction-column justify-content-space-between" style="min-height: 100vh; overflow-x: hidden;">
+<div class="has-background-black has-text-white is-flex is-flex-direction-column justify-content-space-between">
 
 
 
   <!-- Big Name & Intro (Top Section grid) -->
-  <header class="section py-6 px-5" style="flex-grow: 1;">
+  <header class="section py-6 px-5">
     <div class="container is-fluid">
       <div class="columns is-multiline">
         <!-- Big Name / Logo mark (brutalist, massive screen-filling text) -->
@@ -56,9 +56,9 @@ layout: home
   </header>
 
   <!-- Huge Video / Interactive Visual "Big Space" (100vh / 100vw) -->
-  <section class="video-container" style="position: relative; width: 100vw; height: 100vh; overflow: hidden; background-color: #0d0d0d;">
+  <section class="video-container">
     <!-- Tiny label over the video, brutalist placement -->
-    <div style="position: absolute; top: 2rem; left: 2rem; z-index: 10; font-family: monospace;" class="is-size-7 is-uppercase tracking-wider">
+    <div class="is-size-7 is-uppercase tracking-wider">
       [01] Interactive canvas / Background environment
     </div>
 
@@ -73,7 +73,7 @@ layout: home
   </section>
 
   <!-- Minimal Footer -->
-  <footer class="footer has-background-black has-text-grey-light py-5 px-5" style="border-top: 1px solid #1a1a1a;">
+  <footer class="footer has-background-black has-text-grey-light py-5 px-5">
     <div class="container is-fluid">
       <div class="columns is-vcentered is-mobile is-multiline">
         <div class="column is-6-tablet is-12-mobile mb-3-mobile">
