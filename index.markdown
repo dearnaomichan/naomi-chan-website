@@ -8,29 +8,7 @@ layout: home
 <!-- Background Container with dark theme -->
 <div class="has-background-black has-text-white is-flex is-flex-direction-column justify-content-space-between" style="min-height: 100vh; overflow-x: hidden;">
 
-  <!-- Navbar -->
-  <nav class="navbar is-transparent py-4 px-5" role="navigation" aria-label="main navigation" style="background: transparent;">
-    <div class="container is-fluid">
-      <div class="navbar-brand">
-        <!-- Logo on the left -->
-        <a class="navbar-item has-text-white has-text-weight-bold is-size-5 is-uppercase tracking-wider" href="{{ '/' | relative_url }}">
-          Naomi Chan
-        </a>
-      </div>
-      
-      <!-- Right aligned links -->
-      <div class="navbar-end">
-        <div class="navbar-items is-flex" style="gap: 1.5rem; align-items: center;">
-          <a class="has-text-white is-uppercase is-size-6 tracking-wider hover-fade" href="{{ '/about/' | relative_url }}">
-            About
-          </a>
-          <a class="has-text-white is-uppercase is-size-6 tracking-wider hover-fade" href="{{ '/projects/' | relative_url }}">
-            Projects
-          </a>
-        </div>
-      </div>
-    </div>
-  </nav>
+
 
   <!-- Big Name & Intro (Top Section grid) -->
   <header class="section py-6 px-5" style="flex-grow: 1;">
@@ -38,8 +16,7 @@ layout: home
       <div class="columns is-multiline">
         <!-- Big Name / Logo mark (brutalist, massive screen-filling text) -->
         <div class="column is-12 mb-6">
-          <h1 class="title is-uppercase has-text-white has-text-weight-black tracking-tighter" 
-              style="font-size: clamp(4rem, 15vw, 18rem); line-height: 0.8; margin-left: -0.05em;">
+          <h1 class="title is-uppercase is-size-1">
             NAOMI
           </h1>
         </div>
