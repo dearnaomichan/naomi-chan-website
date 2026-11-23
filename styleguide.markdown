@@ -14,6 +14,11 @@ permalink: /styleguide/
       <p class="subtitle is-5">Live preview of typography, colors, buttons, forms, and UI components.</p>
     </div>
 
+    <div class="mb-6">
+        <h2 class="title is-4">00. Lockup</h2>
+        <img src="/assets/images/naomi-chan-lockup.svg">
+    </div>
+
     <!-- 1. Brand & Semantic Colors -->
     <div class="mb-6">
       <h2 class="title is-4">01. Colors</h2>
@@ -82,6 +87,7 @@ permalink: /styleguide/
           <p class="title is-4">Title 4 (<code>$size-4</code>)</p>
           <p class="title is-5">Title 5 (<code>$size-5</code>)</p>
           <p class="title is-6">Title 6 (<code>$size-6</code>)</p>
+          <p class="title is-7">Title 7 (<code>$size-7</code>)</p>
         </div>
         <div class="column is-5">
           <div class="content">
