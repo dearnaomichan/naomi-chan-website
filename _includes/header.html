@@ -3,14 +3,20 @@
     <div class="container is-fluid">
       <div class="navbar-brand">
         <!-- Logo on the left -->
-        <a class="navbar-item has-text-white has-text-weight-bold is-size-5 is-uppercase tracking-wider" href="{{ '/' | relative_url }}">
-          {%- assign default_paths = site.pages | map: "path" -%}
-          {%- assign page_paths = site.header_pages | default: default_paths -%}
+        <a class="navbar-item title is-3 " href="{{ '/' | relative_url }}">
+          {{ site.title | escape }}
         </a>
       </div>
       
       <!-- Right aligned links -->
       <div class="navbar-end">
+
+        <!-- darkmode toggle -->
+        <button id="theme-toggle" class="button is-primary is-round is-small" aria-label="Toggle dark and light mode">
+          <span id="theme-toggle-text">Dark Mode</span>
+        </button>
+       <!-- darkmode toggle end -->
+
         <div class="navbar-items is-flex" style="gap: 1.5rem; align-items: center;">
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}

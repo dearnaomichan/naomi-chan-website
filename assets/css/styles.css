@@ -1,0 +1,8 @@
+// In your custom Sass file
+.theme-lockup {
+  transition: filter 0.2s ease;
+}
+
+[data-theme="dark"] .theme-lockup {
+  filter: invert(1);
+}

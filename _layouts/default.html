@@ -15,6 +15,29 @@
 
     {%- include footer.html -%}
 
+<!-- darkmode toggle -->
+    <script>
+      (function () {
+        const btn = document.getElementById('theme-toggle');
+        const label = document.getElementById('theme-toggle-text');
+        if (!btn) return;
+    
+        function updateLabel(theme) {
+          label.textContent = theme === 'dark' ? 'Light Mode' : 'Dark Mode';
+        }
+    
+        // Set initial label on load
+        updateLabel(document.documentElement.getAttribute('data-theme'));
+    
+        btn.addEventListener('click', function () {
+          const current = document.documentElement.getAttribute('data-theme');
+          const next = current === 'dark' ? 'light' : 'dark';
+          document.documentElement.setAttribute('data-theme', next);
+          localStorage.setItem('theme', next);
+          updateLabel(next);
+        });
+      })();
+    </script>
   </body>
 
 </html>

@@ -16,7 +16,8 @@ permalink: /styleguide/
 
     <div class="mb-6">
         <h2 class="title is-4">00. Lockup</h2>
-        <img src="/assets/images/naomi-chan-lockup.svg">
+      <img class="theme-lockup" src="{{ '/assets/images/naomi-chan-lockup.svg' | relative_url }}" alt="Naomi Chan Lockup">
+
     </div>
 
     <!-- 1. Brand & Semantic Colors -->
