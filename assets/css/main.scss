@@ -2,11 +2,15 @@
 ---
 
 @use "bulma" with (
-  $primary: #5b46f6,
-  $link: #5b46f6,
-
-  $size-1: 6rem
+$text: #3B2508,
+$primary: #FABFFF,
+$link: #FF6E0D,
+$info:  #FABFFF,
+$success: #3B2508,
+$dark: #3B2508,
+$light: #F9F7F0,
+$warning: #FF6E0D,
+$size-1: 10rem,
+$family-primary: "Geist Pixel"
 );
 
-
-// Your custom styles below
