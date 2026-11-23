@@ -54,4 +54,6 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-exclude:
+sass:
+  sass_dir: _sass
+  style: compressed
