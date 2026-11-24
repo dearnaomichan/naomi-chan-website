@@ -1,21 +1,33 @@
   <!-- Navbar -->
-  <nav class="navbar is-transparent py-4 px-5" role="navigation" aria-label="main navigation" style="background: transparent;">
-    <div class="container is-fluid">
+  <nav class="navbar is-transparent" role="navigation" aria-label="main navigation" style="background: transparent;">
+    <div class="container">
       <div class="navbar-brand">
         <!-- Logo on the left -->
-        <a class="navbar-item title is-3 " href="{{ '/' | relative_url }}">
+        <a class="navbar-item title is-5" href="{{ '/' | relative_url }}">
           {{ site.title | escape }}
         </a>
+      </div>
+
+      <div class="navbar-item">
+        
+        <!-- darkmode toggle -->
+        <button
+          id="theme-toggle"
+          class="theme-switch"
+          type="button"
+          role="switch"
+          aria-checked="false"
+          aria-label="Toggle dark mode">
+          <span class="theme-switch__thumb"></span>
+        </button>
+        <!-- darkmode toggle end -->
+
       </div>
       
       <!-- Right aligned links -->
       <div class="navbar-end">
 
-        <!-- darkmode toggle -->
-        <button id="theme-toggle" class="button is-primary is-round is-small" aria-label="Toggle dark and light mode">
-          <span id="theme-toggle-text">Dark Mode</span>
-        </button>
-       <!-- darkmode toggle end -->
+        
 
         <div class="navbar-items is-flex" style="gap: 1.5rem; align-items: center;">
           {%- for path in page_paths -%}

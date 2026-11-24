@@ -1,3 +1,27 @@
+
+  <!-- Minimal Footer -->
+  <footer class="footer has-background-black has-text-grey-light py-5 px-5">
+    <div class="container is-fluid">
+      <div class="columns is-vcentered is-mobile is-multiline">
+        <div class="column is-6-tablet is-12-mobile mb-3-mobile">
+          <p class="is-size-7 is-uppercase">
+            &copy; {{ site.time | date: "%Y" }} Naomi Chan. All rights reserved.
+            {%- if site.email -%}
+            <p><a class="is-size-7" href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+            {%- endif -%}
+          </p>
+        </div>
+        <div class="column is-6-tablet is-12-mobile has-text-right-tablet">
+          <p class="is-size-7 is-uppercase">
+            Built by me 
+          </p>
+         <a  class="is-size-7 is-uppercase" href="https://github.com/AntoineVRM/VRM-HIKARU/tree/main?ref=uncut.wtf">Font by Antoine Sigur</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<!-- 
 <footer class="site-footer h-card">
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
@@ -32,4 +56,4 @@
 
   </div>
 
-</footer>
+</footer> -->
